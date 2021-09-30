@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/usersTable/static/css/main.607138e0.chunk.css",
+    "main.js": "/usersTable/static/js/main.12c8c914.chunk.js",
+    "main.js.map": "/usersTable/static/js/main.12c8c914.chunk.js.map",
+    "runtime-main.js": "/usersTable/static/js/runtime-main.9d2cb892.js",
+    "runtime-main.js.map": "/usersTable/static/js/runtime-main.9d2cb892.js.map",
+    "static/js/2.c39657b4.chunk.js": "/usersTable/static/js/2.c39657b4.chunk.js",
+    "static/js/2.c39657b4.chunk.js.map": "/usersTable/static/js/2.c39657b4.chunk.js.map",
+    "index.html": "/usersTable/index.html",
+    "static/css/main.607138e0.chunk.css.map": "/usersTable/static/css/main.607138e0.chunk.css.map",
+    "static/js/2.c39657b4.chunk.js.LICENSE.txt": "/usersTable/static/js/2.c39657b4.chunk.js.LICENSE.txt",
+    "static/media/downArrow.7ebb6912.svg": "/usersTable/static/media/downArrow.7ebb6912.svg",
+    "static/media/loading.ae27aa17.gif": "/usersTable/static/media/loading.ae27aa17.gif",
+    "static/media/upArrow.4dcd8795.svg": "/usersTable/static/media/upArrow.4dcd8795.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d2cb892.js",
+    "static/js/2.c39657b4.chunk.js",
+    "static/css/main.607138e0.chunk.css",
+    "static/js/main.12c8c914.chunk.js"
+  ]
+}
