@@ -1,0 +1,71 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  width: 200px;
+  height: 25px;
+  cursor: pointer;
+  background-color: darkcyan;
+  position: relative;
+}
+
+.text {
+  margin-right: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.imgWrapper {
+  width: 100%;
+  margin-right: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.imgWrapper img {
+  height: 20px;
+  width: 15px;
+  object-fit: fill;
+  display: block !important;
+}
+
+.openedMenu {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.openedMenu div {
+  position: relative;
+  padding: 5px;
+}
+
+.openedMenu div::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: #aaa;
+  height: 1px;
+  width: 100%;
+}
+
+.openedMenu div:last-of-type::after {
+  height: 0px;
+}

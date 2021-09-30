@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #aaa;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.wrapper button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 18px;
+  padding: 10px;
+  color: darkcyan;
+  position: relative;
+}
+
+.wrapper button::after {
+  position: absolute;
+  top: 0px;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #aaa;
+  right: 0px;
+}
+
+.wrapper button:last-of-type::after {
+  width: 0px;
+}
+
+.activeBtn {
+  background-color: darkcyan !important;
+  color: black !important;
+}

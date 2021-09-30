@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  width: fit-content;
+  height: 25px;
+}
+
+.text {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.input {
+  font-size: 18px;
+  border: 0px;
+  width: 200px;
+}

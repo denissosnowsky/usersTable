@@ -1,0 +1,23 @@
+.arrowWrapper {
+  height: 20px;
+  width: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.arrowWrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  display: block !important;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  cursor: pointer;
+}
